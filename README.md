@@ -57,11 +57,3 @@ See [pipeline documentation](source/README.md) for CLI and competition CSV workf
 .venv\Scripts\python.exe -m unittest discover -s source -p test_pipeline.py -v
 .venv\Scripts\python.exe -m unittest discover -s source -p test_web_app.py -v
 ```
-
-UI tests use simulated bills and mocked API calls; they do not consume API quota.
-
-## AI usage
-
-Application inference uses Google Gemini through the shared model gateway.
-OpenAI Codex assisted implementation, debugging and testing. See the pipeline
-documentation for the competition model configuration and original submission details.
