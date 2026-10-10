@@ -1,0 +1,30 @@
+<style>
+:root{--paper:#f7f7f2;--ink:#111111;--purple:#6333ee;--lime:#d8f700;--orange:#ff811a;--white:#ffffff;--muted:#555555;--border:2px solid var(--ink)}
+.stApp{background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+.stMainBlockContainer{max-width:1200px;padding-top:3.5rem;padding-bottom:1rem}
+h1,h2,h3{font-family:Arial,Helvetica,sans-serif!important;color:var(--ink);font-weight:900!important;letter-spacing:-.04em}
+h3{font-size:20px!important;padding:0 0 8px!important}
+.brandbar{display:flex;justify-content:space-between;align-items:center;border:var(--border);padding:8px 14px;font-weight:900;font-size:16px}
+.brandmark{display:inline-block;background:var(--lime);border:var(--border);padding:5px;margin-right:10px;box-shadow:2px 2px 0 var(--ink)}
+.edition,.eyebrow{font:700 11px monospace;letter-spacing:.06em}
+.hero{display:flex;justify-content:space-between;gap:16px;padding:16px 2px;align-items:center}
+.hero h1{font-size:clamp(28px,3.5vw,42px);line-height:1.1;margin:0 0 5px;padding:0;letter-spacing:-.05em}
+.hero h1 [data-heading-text]>span{color:var(--purple)}
+.hero p{font-size:14px;line-height:1.5;margin:0}.provider-tags{font:700 11px monospace;margin-left:12px}
+.hero-stamp{background:var(--purple);color:var(--orange);border:var(--border);box-shadow:4px 4px 0 var(--ink);font:900 58px/1 Arial;padding:3px 15px;transform:rotate(-4deg)}
+[data-testid="stVerticalBlockBorderWrapper"]>div{border-radius:0!important;border-color:var(--ink)!important}
+[data-testid="stFileUploaderDropzone"]{background:var(--white);border:2px dashed var(--ink);border-radius:0}
+.stButton button,.stDownloadButton button,[data-testid="stFileUploader"] button{border:var(--border)!important;border-radius:0!important;color:var(--ink)!important;background:var(--white);font-weight:700;box-shadow:3px 3px 0 var(--ink)}
+.stButton button[kind="primary"]{background:var(--purple)!important;color:var(--white)!important;min-height:42px}
+.stButton button:disabled{opacity:.5;box-shadow:none}.stButton button:hover:enabled,.stDownloadButton button:hover{transform:translate(-1px,-1px);box-shadow:5px 5px 0 var(--ink)}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--purple)!important;outline-offset:3px}
+.empty-results{border:var(--border);padding:20px;background:var(--white);box-shadow:4px 4px 0 var(--ink)}.empty-results h2{font-size:28px;line-height:1.1;margin:12px 0 8px;padding:0}.empty-results p{color:var(--muted);line-height:1.5;font-size:14px;margin-bottom:14px}
+.blank-metrics{display:grid;grid-template-columns:repeat(3,1fr);border:var(--border);background:var(--lime)}.blank-metrics span{padding:8px 12px;font:700 10px monospace}.blank-metrics b{display:block;font:900 24px Arial}.blank-metrics span+span{border-left:var(--border)}
+[data-testid="stMetric"]{background:var(--lime);border:var(--border);padding:8px;min-height:80px}[data-testid="stMetricValue"]{font-size:clamp(17px,2vw,26px);font-weight:800}
+.stTabs [data-baseweb="tab-list"]{gap:12px;border-bottom:var(--border)}.stTabs [aria-selected="true"]{color:var(--purple)!important}.stTabs button{font:700 11px monospace}
+.question-banner{display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--lime);border:var(--border);padding:12px 16px;margin:12px 0 0;box-shadow:3px 3px 0 var(--ink)}.question-banner b{font-size:20px;letter-spacing:-.04em}.question-banner span{font:11px monospace}
+[data-testid="stChatInput"]{border:var(--border);border-radius:0;background:var(--white)}[data-testid="stChatMessage"]{border:var(--border);border-radius:0;background:var(--white)}
+.footer{border-top:var(--border);margin-top:12px;padding-top:10px;display:flex;justify-content:space-between;gap:16px;font:700 10px monospace}
+@media(max-width:700px){.stMainBlockContainer{padding:3.5rem 1rem 1rem}.edition{font-size:9px;max-width:100px;text-align:right}.brandbar{padding:8px;font-size:14px}.hero{padding:14px 0}.hero h1{font-size:30px}.hero-stamp{font-size:42px;padding:4px 10px}.provider-tags{display:block;margin:4px 0 0}.question-banner{padding:10px 12px}.question-banner b{font-size:18px}.question-banner span{display:none}.empty-results{padding:16px}.empty-results h2{font-size:24px}.footer span{max-width:160px;text-align:right}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+</style>

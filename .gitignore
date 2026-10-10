@@ -1,0 +1,29 @@
+.env
+api key.txt
+.venv/
+.runtime/
+__pycache__/
+cache/
+output/
+submission.zip
+tmp/
+
+# Local credentials and private bill datasets
+.env.*
+!.env.example
+!source/.env.example
+train/
+test/bills/
+test/csv/
+
+# Submission archives and local recordings
+*.zip
+SyedaMahamMohsin_WQ26_*/
+demo/
+
+# Editor and test artifacts
+.pytest_cache/
+.DS_Store
+Thumbs.db
+initial prompt.txt
+.streamlit/secrets.toml
